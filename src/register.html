@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head> @include('./header.html', { "title": "首页" }) </head>
+
+<body>
+    <script src="dist/js/lib/jquery/jquery-1.11.3.min.js"></script>
+    <script src="dist/js/lib/bootstrap/bootstrap.min.js"></script>
+    <div class="wrap">
+        <!-- 头部 -->
+        <header>
+            <div class="headerTop">
+                <div class="headerTopFirst">
+                    <img src="dist/img/Register_01.gif" alt="">
+                </div>
+                <div class="headerTopSecond">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid inner"> 
+                            <div class="navbar-header selectDown">
+                                <a class="navbar-brand" href="#"><span>Products</span></a>
+                            </div>
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control search" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default submit">
+                                    <img src="dist/img/Register_05.gif" alt="" class="searchImg">
+                                </button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+                <div class="headerTopThird">
+                    <ol class="images">
+                        <li><img src="dist/img/Register_02.gif" alt=""></li>
+                        <li><img src="dist/img/Register_03.gif" alt=""></li>
+                        <li><img src="dist/img/Register_04.gif" alt=""></li>
+                    </ol>
+                    <ol class="breadcrumb links">
+                        <li>Login</li>
+                        <li>Registered</li>
+                        <li>Favorites</li>
+                        <li>Order</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="headerDown">
+                <div class="headerDownInner">
+                    <ul class="nav nav-pills nav-justified linkGroup">
+                        <li class="link"><a href="#" class="active">Home</a></li>
+                        <li class="link"><a href="#">Products</a></li>
+                        <li class="link"><a href="#">News</a></li>
+                        <li class="link"><a href="#">Catalogue</a></li>
+                        <li class="link"><a href="#">Support</a></li>
+                        <li class="link"><a href="#">Distributions</a></li>
+                        <li class="link"><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- 体部 -->
+        <article>
+            <div class="articleInner">
+                <div class="articleTop">
+                    User account registration
+                </div>
+                <div class="articleDown">   
+                    <div class="formInnerBox">             
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-3 control-label"><span class="emphasis">*</span><span class="describe">Name</span></label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone" class="col-sm-3 control-label"><span class="emphasis">*</span><span class="describe">Telephone</span></label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="telephone">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="address" class="col-sm-3 control-label"><span class="emphasis">*</span><span class="describe">Address</span></label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="address">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="fax" class="col-sm-3 control-label"><span class="describe">Fax</span></label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="fax">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="industry" class="col-sm-3 control-label"><span class="emphasis">*</span><span class="describe">Industry</span></label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="industry">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="remarks" class="col-sm-3 control-label"><span class="emphasis">*</span><span class="describe">Remarks</span></label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control" id="remarks"></textarea>
+                                </div>
+                            </div>
+                            <div class="advice">
+                                <span class="emphasis">*</span>
+                                <span class="describe">Mandatory fields</span>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default">Registered</button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default active">Registered</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </article>
+        <!-- 脚部 -->
+        <footer>
+            <div class="footerInner">
+                <div class="footerTop">
+                    <img src="dist/img/Register_06.gif" alt="">
+                    <div>
+                        <ul>
+                            <li>About us</li>
+                            <li>Contact us</li>
+                            <li>Products</li>
+                            <li>online service</li>
+                            <li>Service support</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="width:1000px">
+                <div class="footerDown">
+                    <nav class="footerSearch">
+                        <span>NEWSLETTER</span>
+                        <input type="text" placeholder="EMAIL">
+                        <button>
+                            <img src="dist/img/Register_10.gif" alt="">
+                        </button>
+                    </nav>
+                    <ol>
+                        <li><img src="dist/img/Register_07.gif" alt=""></li>
+                        <li><img src="dist/img/Register_08.gif" alt=""></li>
+                        <li><img src="dist/img/Register_09.gif" alt=""></li>
+                    </ol>
+                    <address>   
+                        @2017MEGA-BITE ALL RIGHTS RESERVED
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        $(function(){
+            $('.link').hover(function(){
+                $(this.children).addClass('active');
+            },function(){
+                $(this.children).removeClass('active');
+            }); 
+        })
+    </script>
+</body>
+
+</html>

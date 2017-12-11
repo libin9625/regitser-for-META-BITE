@@ -1,0 +1,264 @@
+
+/* 
+@author:libin
+@data: 2017.12 0.11;
+*/
+
+.wrap{
+    overflow-x:hidden;
+}
+
+/* 头部 */
+header .headerTop{
+    width: 1000px;
+    height: 120px;
+    /* border: 1px solid  black; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header .headerTop .headerTopFirst img{
+    float: left;
+}
+
+header .headerTop .headerTopSecond{
+    float: left;
+}
+
+header .headerTop .headerTopSecond nav{
+    margin-top: 60px;
+    min-height: 40px;
+    height: 40px;
+    width: 427px;
+    margin-left: 50px;
+    background-color: #426ab2;
+}
+
+header .headerTop .headerTopSecond nav .inner{
+    padding: 0;
+    margin: 0;
+}
+
+header .headerTop .headerTopSecond nav .selectDown span{
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    position: relative;
+    top: -5px;
+    left: 18px;
+}
+
+header .headerTop .headerTopSecond nav .search{
+    padding: 0 !important;
+    width: 270px;
+    height: 37px;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    border: 1px solid #426ab2;
+    border-radius: 0;
+}
+
+header .headerTop .headerTopSecond nav .submit{
+    width: 30px;
+    position: relative;
+    top: -7px;
+    left: 8px;
+    background-color: #426ab2;
+    border: 0;
+}
+
+header .headerTop .headerTopSecond nav .submit .searchImg{
+    position: relative;
+    left: -8px;
+}
+
+header .headerTop .headerTopThird ol.images{
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+header .headerTop .headerTopThird ol.images li{
+    list-style: none;
+    float: left;
+    margin-left: 35px;
+}
+
+header .headerTop .headerTopThird ol.links{
+    width: 350px !important;
+    float: right;
+    font-size: 15px;
+    background-color: white;
+}
+
+header .headerDown .headerDownInner{
+    background-color: #426ab2;
+    box-shadow: 3px 3px 3px #426ab2;
+}
+
+header .headerDown .linkGroup{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #426ab2;
+}
+
+header .headerDown .linkGroup li.link{
+    width: 1550px;
+}
+
+header .headerDown .linkGroup li a{
+    color: white;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+header .headerDown .linkGroup a.active{
+    background-color: white;
+    border-radius: 0;
+    color: #426ab2;
+}
+
+/* 体部 */
+article{
+    width: 100%;
+}
+
+article .articleInner{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+article .articleInner .articleTop{
+    font-size: 23px;
+    color: #426ab2;
+    margin-top: 60px;
+}
+
+article .articleInner .articleDown form .emphasis{
+    color:#426ab2;
+    font-size: 20px;
+}
+
+article .articleInner .articleDown form .describe{
+    font-size:15px;
+    font-weight: bold;
+}
+
+article .articleInner .articleDown form .advice{
+    position: relative;
+    left: 125px;
+}
+
+article .articleInner .articleDown .formInnerBox{
+    box-shadow: 0px 0px 8px 6px #ccc;
+    height: 550px;
+    margin-top: 20px;
+}
+
+article .articleInner .articleDown form{
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+
+article .articleInner .articleDown .form-group .btn{
+    border: 1px solid #426ab2;
+    position: relative;
+    left: 170px;
+    top: 20px;
+    color: #426ab2;
+}
+
+article .articleInner .articleDown .form-group .active{
+    background-color: #426ab2;
+    color: white;
+}
+
+/* 脚部 */
+footer{
+    position: relative;
+    top: 35px;
+}
+
+footer .footerInner{
+    width: 1000px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #3f434a;
+}
+
+footer .footerInner .footerTop img{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+footer .footerInner .footerTop div ul li{
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+footer .footerInner .footerDown{
+    margin-top: 100px;
+    width: 1000px;
+    height: 20px;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+footer .footerInner .footerDown nav.footerSearch{
+    position: relative;
+    top: 50px;
+    left: 360px;
+}
+
+footer .footerInner .footerDown nav.footerSearch span{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer .footerInner .footerDown nav.footerSearch input{
+    margin-left: 20px;
+    height: 30px;
+    background-color: #cacaca;
+    border: 0;
+}
+
+footer .footerInner .footerDown nav.footerSearch  button{
+    background-color: black;
+    border: 0;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 3px;
+    top: -1px;
+}
+
+footer .footerInner .footerDown ol li{
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+    position: relative;
+    top: 80px;
+    left: 400px;
+}
+
+footer .footerInner .footerDown address{
+    color: #c1c5cc;
+    font-size: 10px;
+    position: relative;
+    top: 110px;
+    left: 245px;
+}
+
+
+
